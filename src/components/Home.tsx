@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import bnny from '../bnyy.png';
 
 const Home = () => {
@@ -13,6 +14,8 @@ const Home = () => {
         </p>
         <nav>
           <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><a href={`${process.env.PUBLIC_URL}/5eTools/index.html`} target="_blank" rel="noopener noreferrer">DnD</a></li>
         </nav>
       </header>
     </div>);

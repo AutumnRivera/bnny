@@ -15,7 +15,7 @@ export default [
   },
   {files: ["**/*.js"], languageOptions: {sourceType: "script"}},
   {languageOptions: { globals: globals.browser }},
-  {ignores: ["**/build/**/*", "eslint.config.mjs"]},
+  {ignores: ["**/build/**/*", "**/5eTools/**/*", "eslint.config.mjs"]},
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,

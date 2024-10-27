@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# Bnny
+
+This is a simple web application that I'm working on as a fun side project.
+
+License information for this software can be found in [`LICENSE`](LICENSE). All of the other projects referenced in the build steps are licensed under an MIT license as well.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+- Run the app in development mode with `npm start`
 
-### `npm start`
+- Build the application with `npm run build`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Launch the test runner with `npm test`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Run the application's linter with `npm run lint`
 
-### `npm test`
+## Building Bnny
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+While you can simply build the application using the node configuration `npm run build`, there are some sub applications you will need to setup first.
 
-### `npm run build`
+Simply navigate to the `public` directory and clone with following repositories into the following directories.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `https://github.com/5etools-mirror-3/5etools-src` -> `5eTools`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Once they are cloned into the correct directories, run `npm run build`, and presto! Copy the build directory into anywhere you can host a website.

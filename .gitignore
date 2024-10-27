@@ -11,6 +11,9 @@
 # production
 /build
 
+# external apps
+/public/5eTools
+
 # misc
 .DS_Store
 .env.local
