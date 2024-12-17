@@ -2,7 +2,14 @@
 
 A log detailing the various changes made for this web app. In case you want something more digestible than Git!
 
-## 1.2.0
+## v1.2.1
+Removes known vulnerabilities from package dependencies
+
+- Upgraded various package dependencies that are known vulnerabilities
+
+- This package now passes an `npm audit` with 0 vulnerabilities at the time of this release
+
+## v1.2.0
 Introduces structure to handle new content with some improvements
 
 - Adds a lightweight Dungeons and Dragons application to help run a fifth edition DnD campaign
@@ -13,7 +20,7 @@ Introduces structure to handle new content with some improvements
 
 - Minor code cleanup
 
-## 1.1.0
+## v1.1.0
 Adds linting to the application via eslint
 
 - Linting can be configured with your IDE or explicitly ran with `npm run lint`
@@ -22,7 +29,7 @@ Adds linting to the application via eslint
 
 - Compiler configuration can be found in [`tsconfig.json`](tsconfig.json)
 
-## 1.0.0
+## v1.0.0
 Adds initial setup for this web app
 
 - A basic react app that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
