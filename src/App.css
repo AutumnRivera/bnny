@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #004d0d;
-  min-height: 100vh;
+  height: 96vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,5 +34,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.Badges {
+  background-color: #004d0d;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4vh;
+
+  .Badge {
+    margin: 0 0 0 0.5rem;
+    height: 1.5rem;
   }
 }

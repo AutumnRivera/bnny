@@ -2,10 +2,17 @@
 
 A log detailing the various changes made for this web app. In case you want something more digestible than Git!
 
+## v1.3.0
+Introduces a footer that showcases some badges for the website
+
+- Adds a new banner with a few badges for SSL, domain security, and IPv6 compliance
+
+- Fixes broken code linting for ESLint
+
 ## v1.2.1
 Removes known vulnerabilities from package dependencies
 
-- Upgraded various package dependencies that are known vulnerabilities
+- Upgrades various package dependencies that are known vulnerabilities
 
 - This package now passes an `npm audit` with 0 vulnerabilities at the time of this release
 

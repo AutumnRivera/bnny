@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import bnny from '../bnyy.png';
+import bnny from '../assets/Bnyy.png';
+import Footer from './Footer';
 
 const Home = () => {
     return(
@@ -19,6 +20,7 @@ const Home = () => {
           <li><a href={`${process.env.PUBLIC_URL}/5eTools/index.html`} target="_blank" rel="noopener noreferrer">DnD</a></li>
         </nav>
       </header>
+      <Footer></Footer>
     </div>);
   };
   
