@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import bnny from '../bnyy.png';
+import bnny from '../assets/Bnyy.png';
 
 const About = () => {
     return(

@@ -13,9 +13,27 @@ export default [
       },
     }
   },
-  {files: ["**/*.js"], languageOptions: {sourceType: "script"}},
-  {languageOptions: { globals: globals.browser }},
-  {ignores: ["**/build/**/*", "**/5eTools/**/*", "eslint.config.mjs"]},
+  {
+    files: ["**/*.js"], 
+    languageOptions: {
+      sourceType: "script"
+    }
+  },
+  {
+    languageOptions: { 
+      globals: globals.browser 
+    }
+  },
+  {
+    ignores: ["**/build/**/*", "**/5eTools/**/*", "eslint.config.mjs"]
+  },
+  {
+    settings: {
+      react: {
+        version: "detect"
+      },
+    }
+  },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
