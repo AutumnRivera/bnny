@@ -1,6 +1,16 @@
 # Change Log
 
-A log detailing the various changes made for this web app. In case you want something more digestible than Git!
+## v1.4.0
+
+- Adds a navigation bar for the application
+
+- Touches up the content in various areas and introduces the "bnny" page
+
+- Removes the lightweight DnD application to take a different direction with content
+
+- Substantial styling updates
+
+- Miscellaneous code cleanup and refactoring
 
 ## v1.3.0
 Introduces a footer that showcases some badges for the website

@@ -1,3 +1,11 @@
+:root {
+  --sage: #A4B494;
+  --forest-green: #1E3F20;
+  --bunny-green: #345830;
+  --burnt-umber: #772E25;
+
+}
+
 .App {
   text-align: center;
 }
@@ -14,18 +22,14 @@
 }
 
 .App-header {
-  background-color: #004d0d;
+  background-color: var(--sage);
   height: 96vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(196, 169, 17);
-}
-
-.App-link {
-  color: #61dafb;
+  color: var(--bunny-green);
 }
 
 @keyframes App-logo-spin {
@@ -37,11 +41,28 @@
   }
 }
 
-.Badges {
-  background-color: #004d0d;
+.Navigation {
+  background-color: var(--sage);
   display: flex;
   flex-direction: row;
-  align-items: left;
+  justify-content: left;
+
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  .NavElement {
+    display: inline-block;
+    margin: 0.5rem 0 0 1rem;
+    color: var(--burnt-umber);
+    text-decoration: underline;
+  }
+}
+
+.Badges {
+  background-color: var(--sage);
+  display: flex;
+  flex-direction: row;
   justify-content: left;
 
   position: absolute;
