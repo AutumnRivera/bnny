@@ -1,8 +1,8 @@
 import React from 'react';
 
-import sslBadge from '../assets/Badges/SSLBadge.svg'
-import ipv6Badge from '../assets/Badges/IPv6.svg'
-import secure from '../assets/Badges/DomainSecure.png'
+import sslBadge from '../../Assets/Badges/SSLBadge.svg'
+import ipv6Badge from '../../Assets/Badges/IPv6.svg'
+import secure from '../../Assets/Badges/DomainSecure.png'
 
 const Footer = () => {
     return(

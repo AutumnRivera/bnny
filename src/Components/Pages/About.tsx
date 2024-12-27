@@ -1,17 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import bnny from '../assets/Bnyy.png';
 
 const About = () => {
+    {/* TODO: I may turn this into a "Contact Me" component if I put an about me in home. */}
     return(
     <div className="App">
       <header className="App-header">
-        <img src={bnny} className="App-logo" alt="logo" />
         <p>
           This is an about page. TBD!
         </p>
-        <li><Link to="/">Home</Link></li>
       </header>
     </div>);
   };
